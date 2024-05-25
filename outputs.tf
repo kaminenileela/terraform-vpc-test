@@ -13,3 +13,7 @@ output "public_subnet_list" {
 output "aws_db_subnet_group_id"{
     value = module.vpc_test.aws_db_subnet_group_id
 } 
+
+output "igw_id" {
+    value = module.vpc_test.igw_id
+}
